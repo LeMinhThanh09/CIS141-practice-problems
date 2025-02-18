@@ -41,7 +41,7 @@ positive = 0
 while i < len(listOfNumber):
     if listOfNumber[i] > 0:
         positive += 1
-    else:
+    elif listOfNumber[i] < 0:
         negative += 1
     i+=1
 print(positive)
