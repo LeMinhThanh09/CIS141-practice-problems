@@ -22,6 +22,20 @@ while i < len(listOfWord):
     i+=1
 print(count)
 
+#Hhoặc dùng for và in 
+
+listOfWords = ["Olympic", "College", "fsdfsd","Olympic"]
+count = 0
+finding_word = ["Olympic"]
+
+for listOfWord in listOfWords:
+    if listOfWord in finding_word:
+        count+=1
+    else:
+        continue
+
+print(count)
+
 #3. Given a list of strings, write code to create a new list that includes only the strings longer than three characters. Print the resulting filtered list.
 listOfWord = ["dfd","Olympic","Olympic","fsdfsdfsdf"]
 i = 0 
